@@ -1,0 +1,177 @@
+ img{
+    width: 100%;
+    height: 500px;
+    background-color: lightgray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+    .nav-bar{
+    background-color: darkgray;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  position: fixed;
+    top: 0px;
+    overflow: auto;
+        
+}
+    .nav-bar li{
+    float: left;
+    
+    }
+
+.nav-bar li a {
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+     
+}
+
+.nav-bar li a.active {
+    background-color: blueviolet;
+    color: white;
+}
+
+.nav-bar li a:hover:not(.active) {
+    background-color: lightblue;
+    color: black;
+}
+#flag {
+      height: 80px;
+      width: 100px;
+      float: left;
+     border: 0px;
+    padding: 0px;
+      border-style: none;
+      
+}
+#flagg {
+      height: 80px;
+      width: 100px;
+      float: right;
+     border: 0px;
+    padding: 0px;
+      border-style: none;
+      margin-top: -60px;
+}
+.city {
+     float: left;
+    margin: 5px;
+    padding: 15px;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+} 
+#welcome {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    font-family: cooper black;
+    height: 20px;
+}
+#heading {
+font-size: 20px;
+text-align: center;
+font-family:georgia;
+    height: 12px;
+}
+#motto {
+font-size: 20px;
+text-align: center;
+font-family: monotype corsiva;
+}
+.cities {
+    background-color:lightgray;
+    color:black;
+    margin:20px;
+    padding:20px;
+     border-radius: 10px;
+     text-align: justify;
+     font-family: none;
+    font-size: 20px
+} 
+    .cities h1{
+        text-align: center;
+    }
+  .foot{
+     
+      border: solid;
+      padding-left: 100px;
+      margin-top: 120px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      width: 250px;
+      margin-left: 300px;
+      background-image: url(leaf.jpg);
+       border-radius: 20px;    
+      
+    
+ }
+input[type=text] {
+   
+    background-color: transparent;
+    
+    }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px;
+}
+.oof {
+    background-color: darkslategray;
+    color: white;
+    text-align: center;
+    font-family: cooper black;
+    height: 20px;
+}
+
+.news {
+    background-color: cyan;
+    list-style-type: none;
+    padding: 0px;
+    width: 10%;
+    height: 200px;
+    width: 100%;
+    top: 0px;
+    border: 0px;
+    overflow: auto;
+    position :fixed;
+    border-color:green;  
+} 
+.news-bar{
+    background-color: grey;
+    list-style-type: none;
+    padding: 5px;
+    width: 300px;
+    overflow: auto;
+    position: fixed;
+    border: 2px;  
+    margin: 0px;
+    border-color:green;               
+}
+.news-bar li{
+     float: left;
+
+}
+
+.news-bar li a {
+display: block;
+color: black;
+padding: 14px 16px;
+text-decoration: none;
+
+}
+
+.news-bar li a.active {
+background-color: blueviolet;
+color: white;
+}
+
+.news-bar li a:hover:not(.active) {
+background-color: lightblue;
+color: black;
+}  
